@@ -35,6 +35,16 @@ app.get('/login', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'login.html'));
 });
 
+// Serve the dashboard page
+app.get('/dashboard', (req, res) => {
+    // Check if user is logged in
+    if (req.session.loggedIn) {
+        res.sendFile(path.join(__dirname, 'views', 'dashboard.html'));
+    } else {
+        res.redirect('/login'); // Redirect to login if not authenticated
+    }
+});
+
 // Handle login requests (POST)
 app.post('/login', (req, res) => {
     console.log('Received login attempt:', req.body); // Log the incoming data
@@ -53,16 +63,6 @@ app.post('/login', (req, res) => {
     } else {
         res.status(401).json({ message: 'Invalid username or password', redirect: '/login' });
         console.log('Login failed');
-    }
-});
-
-// Serve the dashboard page
-app.get('/dashboard', (req, res) => {
-    // Check if user is logged in
-    if (req.session.loggedIn) {
-        res.sendFile(path.join(__dirname, 'views', 'dashboard.html'));
-    } else {
-        res.redirect('/login'); // Redirect to login if not authenticated
     }
 });
 
