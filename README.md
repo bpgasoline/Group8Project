@@ -9,7 +9,7 @@ Open up command prompt:
 
 Navigate to the folder where you want to clone hoot
 1. 'ls' to list files and directories you can change to
-2. 'cd (dir)' to change directories  
+2. 'cd (dir)' to change directories <br /> 
 For only cloning a specific branch:
 ```
 git clone -b <branch> <repo_url> 
@@ -44,7 +44,7 @@ npm install mongodb
 
 ## Add yourself to Network Access
 1. Click Network Access near the bottom left under SECURITY
-2. Click Add Current IP Address
+2. Click Add Current IP Address <br />
 
 You can now type in the terminal 
 ```
@@ -56,7 +56,7 @@ If you cant Ctrl + click on the link in the terminal, go to http://localhost:300
 ## Access the Database
 1. Visit https://cloud.mongodb.com/v2/671b02a764ffed0f6bc9e642#/metrics/replicaSet/671b03b2c890f61f00b67c93/explorer/TestData/users/find
 or
-2. Install MongoDB Compass GUI for your platform at https://www.mongodb.com/try/download/compass
+2. Install MongoDB Compass GUI for your platform at https://www.mongodb.com/try/download/compass <br />
 Instructions for MongoDB Compass:
 1. Click Database Access right above Network Access
 2. Click ADD NEW DATABASE USER
@@ -64,7 +64,7 @@ Instructions for MongoDB Compass:
 4. Change the first entry to a username for yourself (doesn't really matter)
 5. Press Autogenerate Secure password under the second entry and copy it (and maybe paste it somewhere for the Compass part)
 6. Scroll down and change Built-in Role to Atlas admin
-7. Click Add User in the bottom right
+7. Click Add User in the bottom right <br />
 Then open MongoDB Compass
 1. Click Add new connection
 2. In the URI section, paste this and replace <db_username> with your username and <db_password> with your copied password
