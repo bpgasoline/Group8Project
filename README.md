@@ -54,7 +54,7 @@ and it should run the server.js connected to the database.
 If you cant Ctrl + click on the link in the terminal, go to http://localhost:3000
 
 ## Access the Database
-1. Visit https://cloud.mongodb.com/v2/671b02a764ffed0f6bc9e642#/metrics/replicaSet/671b03b2c890f61f00b67c93/explorer/TestData/users/find
+1. Visit https://cloud.mongodb.com/v2/671b02a764ffed0f6bc9e642#/metrics/replicaSet/671b03b2c890f61f00b67c93/explorer/TestData/users/find <br />
 or
 2. Install MongoDB Compass GUI for your platform at https://www.mongodb.com/try/download/compass <br />
 ## Instructions for MongoDB Compass:
