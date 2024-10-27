@@ -9,7 +9,7 @@ Open up command prompt:
 
 Navigate to the folder where you want to clone hoot
 1. 'ls' to list files and directories you can change to
-2. 'cd <dir>' to change directories
+2. 'cd (dir)' to change directories  
 For only cloning a specific branch:
 ```
 git clone -b <branch> <repo_url> 
