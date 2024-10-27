@@ -57,7 +57,7 @@ If you cant Ctrl + click on the link in the terminal, go to http://localhost:300
 1. Visit https://cloud.mongodb.com/v2/671b02a764ffed0f6bc9e642#/metrics/replicaSet/671b03b2c890f61f00b67c93/explorer/TestData/users/find
 or
 2. Install MongoDB Compass GUI for your platform at https://www.mongodb.com/try/download/compass <br />
-Instructions for MongoDB Compass:
+## Instructions for MongoDB Compass:
 1. Click Database Access right above Network Access
 2. Click ADD NEW DATABASE USER
 3. Under Password Authentication:
@@ -65,7 +65,7 @@ Instructions for MongoDB Compass:
 5. Press Autogenerate Secure password under the second entry and copy it (and maybe paste it somewhere for the Compass part)
 6. Scroll down and change Built-in Role to Atlas admin
 7. Click Add User in the bottom right <br />
-Then open MongoDB Compass
+## Then open MongoDB Compass
 1. Click Add new connection
 2. In the URI section, paste this and replace <db_username> with your username and <db_password> with your copied password
 ```
