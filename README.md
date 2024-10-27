@@ -8,7 +8,7 @@ Open up command prompt:
 2. Type 'cmd' and press Enter
 
 Navigate to the folder where you want to clone hoot
-1. 'ls' to list files and directories you can change to
+1. 'ls' to list files and directories you can change to (on powershell)
 2. 'cd (dir)' to change directories <br /> 
 ## For only cloning a specific branch:
 ```
